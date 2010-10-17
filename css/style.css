@@ -1,0 +1,213 @@
+body {
+	margin:0;
+	padding:0;
+	text-align:center;
+	background-color:#F7D1A6;
+}
+a {
+	text-decoration:none;
+}
+#welcome-screen {
+	background-repeat:no-repeat;
+	position:absolute;
+	z-index:5;
+}
+#wrapper {
+	text-align:left;
+	margin:0 auto;
+	width:840px;
+	height:680px;
+	border-left:2px solid #FDF7EE;
+	border-right:2px solid #FDF7EE;
+	border-bottom:1px solid #FDF7EE;
+}
+#tabs.usertabs div.ui-tabs-panel {
+	padding:6px;
+	min-height:480px;
+	width:310px;
+	line-height:1.5em;
+}
+#
+#tabs.admintabs {
+	text-align:left;
+	margin:0 auto;
+	width:840px;
+	padding-top:85px;
+	background-image:url('../images/banner.png');
+	background-repeat:no-repeat;
+	background-position:right top;
+}
+#overlay {
+	display:relative;
+	float:left;
+	height:680px;
+	width:840px;
+	height:1px;
+}
+#overlay div {
+	margin:0;
+	padding:0;
+}
+#tabs {
+}
+.usertabs .ui-tabs-panel ul, .usertabs .ui-tabs-panel div {
+	padding:0;
+	margin:25px 25px 0;
+}
+#hotspots, #contribute, #desire, #about {
+	background-color:transparent;
+}
+#hotspots li{
+	list-style:none outside none;
+	font-size:1.1em;
+	line-height:1.5em;
+	cursor:pointer;
+}
+.iclip {
+	color:#0000CC;
+}
+.ctour {
+	color:#CC0000;
+}
+#overlay .usertabs {
+	position:absolute;
+	top:25px;
+	left:10px;
+}
+#overlay .left {
+	float:left;
+}
+#overlay .right {
+	float:right;
+}
+#overlay img {
+	overflow: hidden;
+	position:relative;
+	clear:both;
+	display:block;
+	border:none;
+}
+#overlay .left img {
+	float:left;
+	left: 0px;
+	top: 0px;
+}
+#overlay .right img {
+	float:right;
+	position:relative;
+	right: 0px;
+	top: 0px;
+}
+#map_canvas {
+	width:840px;
+	height:680px;
+	margin: 0 auto;
+}
+#map_canvas #smc {
+	left:auto !important;
+	right:74px !important;
+	top:173px !important;
+}
+#hotspotmap #smc {
+	right:7px !important;
+	left:auto !important;
+}
+#lists select {
+	width:12.5em;
+	height:20em;
+	float:left;
+	font-family:"Trebuchet MS",Trebuchet,Verdana,Helvetica,Arial,sans-serif;
+	font-size:12px;
+}
+#listlocation {
+	display:none;
+}
+#hotspotinfo {
+	float:left;
+	width:23.5em;
+	height:18em;
+	padding:1em;
+}
+#hotspotinfo label {
+	display:block;
+	float:right;
+	min-height:2em;
+}
+#hotspotinfo .file {
+	display:block;
+	clear:both;
+	margin-top:1em;
+}
+#hotspotinfo label textarea {
+	height:6em;
+}
+#hotspotinfo label * {
+	border:1px solid #999999;
+	display:block;
+	float:right;
+	font-family:"Trebuchet MS",Trebuchet,Verdana,Helvetica,Arial,sans-serif;
+	font-size:12px;
+	margin-left:1em;
+	width:17em;
+	margin-top:-0.2em;
+	padding:0.1em;
+}
+#interview {
+	width:5em !important;
+	border:0px none;
+	float:right;
+}
+#interview_file {
+	display:block;
+	line-height:1.5em;
+	margin-bottom:0.5em;
+	width:11em;
+	float:right;
+}
+#hotspotinfo .file label input[type="radio"] {
+	width:auto;
+}
+#hotspotinfo .file label input[type="radio"] {
+	width:1.5em;
+	float:left;
+	margin-top:0.1em;
+}
+#hotspotmap {
+	float:left;
+	width:30em;
+	height:20em;
+}
+.clear {
+	clear:both;
+}
+
+#desc {
+	left:3px;
+	position:absolute !important;
+	top:430px;
+	z-index:4;
+}
+#cofa_logo {
+	left:19px;
+	position:absolute !important;
+	top:499px;
+	z-index:4;
+}
+#tad_logo {
+	left:0px;
+	position:absolute !important;
+	top:549px;
+	z-index:4;
+}
+#mix_logo {
+	left:113px;
+	position:absolute !important;
+	top:522px;
+	z-index:4;
+}
+#blanton_logo {
+	left:20px;
+	position:absolute !important;
+	top:610px;
+	z-index:4;
+}
