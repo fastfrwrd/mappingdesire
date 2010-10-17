@@ -3,7 +3,7 @@
 	function connect(){
 
 		//Connect To Database
-		$hostname='mysqldb.its.utexas.edu';
+		$hostname='XXXXX';
 		$username='XXXXX';
 		$password='XXXXX';
 		$dbname='XXXXX';
